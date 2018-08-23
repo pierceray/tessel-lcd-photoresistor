@@ -1,0 +1,28 @@
+{
+  "name": "tessel-lcd-photoresistor",
+  "version": "0.1.0",
+  "description": "Tessel 2 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "pretty-quick"
+  },
+  "repository": "www.github.com/tessel/t2-cli",
+  "keywords": [
+    "Tessel",
+    "Johnny-Five",
+    "LCD",
+    "Photoreistor"
+  ],
+  "license": "MIT",
+  "readme": "A Tessel 2 LCD and Photoresitor",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "prettier": "^1.14.2",
+    "pretty-quick": "^1.6.0"
+  },
+  "dependencies": {
+    "johnny-five": "^1.0.0",
+    "tessel-io": "^1.2.0"
+  }
+}
